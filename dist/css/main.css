@@ -1,0 +1,126 @@
+/*******************************
+ * Variables */
+/******************************* */
+/*******************************
+ * Typography */
+/******************************* */
+html {
+  font-family: "Raleyway", sans-serif;
+  background: #FAFAFA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleyway", sans-serif;
+  font-weight: bold;
+}
+
+/*******************************
+ * Buttons */
+/******************************* */
+.uk-button-primary {
+  background-color: #f0da50;
+  color: #32332e;
+  border: none;
+}
+.uk-button-primary:hover {
+  background-color: #c9b011;
+  color: #32332e;
+}
+
+.uk-button-large {
+  padding: 6px 50px;
+  font-size: 24px;
+  font-family: "Raleyway", sans-serif;
+  font-weight: bold;
+}
+
+/*******************************
+ * Home */
+/******************************* */
+.section-title {
+  font-size: 50px;
+}
+
+.cover {
+  background-color: #f0da50;
+}
+
+.logo {
+  color: #32332e;
+  font-size: 100px;
+}
+@media (max-width: 468px) {
+  .logo {
+    font-size: 50px;
+  }
+}
+
+.date {
+  color: #32332e;
+  font-size: 50px;
+}
+@media (max-width: 468px) {
+  .date {
+    font-size: 30px;
+  }
+}
+
+.uk-navbar {
+  background-color: #32332e;
+}
+.uk-navbar li a {
+  color: #cccccc;
+  text-shadow: none;
+}
+.uk-navbar li:hover a {
+  background: #f0da50;
+  color: #32332e;
+}
+
+.uk-navbar-nav > li.uk-active > a,
+.uk-navbar-nav > li > a:focus {
+  background: #f0da50;
+  color: #32332e;
+}
+
+#speakers {
+  padding: 100px 0px;
+}
+
+.speaker img {
+  height: 200px;
+}
+.speaker i {
+  margin: 0px 10px;
+  color: #32332e;
+}
+
+.uk-overlay-background {
+  background: rgba(240, 218, 80, 0.5);
+}
+
+#schedule {
+  background-color: #32332e;
+  padding: 100px 0px;
+}
+#schedule h1 {
+  color: #fff;
+}
+
+.schedule-panel {
+  background-color: #f0da50;
+  padding: 5%;
+  color: #32332e;
+  margin-bottom: 30px !important;
+}
+.schedule-panel img {
+  width: 100px;
+}
+.schedule-panel h2 {
+  color: #32332e;
+  margin: 0;
+}
+.schedule-panel .time {
+  font-size: 18px;
+  font-weight: bold;
+}
