@@ -22,6 +22,11 @@ h1, h2, h3, h4, h5, h6
 	font-weight: bold
 
 
+@font-face
+	font-family: 'RNS Baruta Black'
+	src: url('../fonts/RNS-B.ttf')
+
+
 /*******************************
            Buttons
 /*******************************
@@ -42,6 +47,20 @@ h1, h2, h3, h4, h5, h6
 	font-weight: bold
 
 
+.uk-button-kickstarter
+	margin-top: 50px
+	background-color: darken(#2BDE73, 10%)
+	text-shadow: none
+	color: $clear-text
+	font-size: 24px
+	padding: 15px 40px
+	&:hover
+		background-color: darken(#2BDE73, 20%)
+		color: $clear-text
+
+.kickstarter
+	font-family: 'RNS Baruta Black'
+
 /*******************************
            Home
 /*******************************
@@ -54,7 +73,10 @@ h1, h2, h3, h4, h5, h6
 // Cover
 
 .cover
-	background-color: $primary-color
+	// background-color: $primary-color
+	background: linear-gradient(rgba(240, 218, 80, 0.498039), rgba(240, 218, 80, 0.498039)), url('../img/cover3.jpg') no-repeat
+	background-size: cover
+
 .logo 
 	color: $secondary-color
 	font-size: 100px
@@ -94,6 +116,7 @@ h1, h2, h3, h4, h5, h6
 	padding: 100px 0px
 
 .speaker
+	margin-bottom: 40px !important
 	img 
 		height: 200px
 
@@ -130,11 +153,12 @@ h1, h2, h3, h4, h5, h6
 		font-size: 18px
 		font-weight: bold
 
-// venue
+// footer
 
-#venue
-
-
+#footer
+	background-color: $secondary-color
+	padding: 30px 0px
+	color: $clear-text
 
 
 
